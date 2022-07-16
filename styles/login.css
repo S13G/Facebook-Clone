@@ -1,0 +1,118 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Helvetica, sans-serif;
+    padding-bottom: 1000px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.facebook-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vw;
+    margin-left: 8vw;
+}
+
+.recent-container {
+    margin-left: 20px;
+    margin-top: -20px;
+    line-height: 0;
+}
+
+.recent {
+    font-size: 30px;
+}
+
+.recent-info {
+    color: #757575;
+    font-size: 15px;
+}
+
+.account-container {
+    display: grid;
+    grid-template-columns: 170px 170px;
+    column-gap: 20px;
+    margin-top: 27px;
+    margin-left: 10%;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    border-radius: 8px;
+    height: 110%;
+    width: 170px;
+    background-color: #f0f2f5;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 1px #dbdbdd;
+}
+
+.account-pic {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pic-container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.name-container, .name-container2 {
+    position: absolute;
+    top: 132px;
+    padding: 0 62px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: white;
+    box-shadow: 1px 1px 1px #dbdbdd;
+}
+
+.name-container p {
+    font-size: 18px;
+}
+
+.notification-count {
+    position: absolute;
+    right: -4px;
+    top: -5px;
+    background-color: red;
+    color: white;
+    padding: 3px 7px;
+    font-size: 13px;
+    border-radius: 50%;
+}
+
+.remove {
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    background-color: rgba(40, 40, 40, 0.5);
+    color: white;
+    font-weight: bold;
+    padding: 0 4px 2px 4px;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+#add {
+    font-size: 18px;
+    color: #035bb1;
+    white-space: nowrap;
+}
+
+.name-container2 {
+    padding: 0 35px;
+}
+
+.plus-icon-container {
+    margin-top: 50px;
+}

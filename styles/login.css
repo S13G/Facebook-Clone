@@ -1,6 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #f0f2f5;
     font-family: Helvetica, sans-serif;
+    line-height: 1.34;
 }
 
 .logo {
@@ -130,6 +136,7 @@ body {
     box-shadow: 1px 3px 8px #aaaaaa;
     background-color: white;
     border-radius: 10px;
+    margin-bottom: 220px;
 }
 
 .card-container {
@@ -220,4 +227,34 @@ input:focus {
 hr {
     width: 360px;
     border-top: 0 solid gray;
+}
+
+.country-container {
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    height: 170px;
+}
+
+.country-cover {
+    width: 980px;
+    padding: 20px 130px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 12px;
+    color: #737373;
+    justify-content: center;
+}
+
+ul li {
+    padding: 0 10px;
+}
+
+#line {
+    width: 1000px;
+    border-top: 1px solid #e1e1e1;
+    margin-left: 62px;
 }

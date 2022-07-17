@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta content="wclassth=device-wclassth, initial-scale=1.0" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Facebook Clone</title>
 
     <link href="styles/login.css" rel="stylesheet">
@@ -35,13 +35,38 @@
     <div class="first-container">
         <div class="pic-container">
             <div class="plus-icon-container">
-                <img alt="plus-icon" src="assets/plus.jpeg">
+                <img alt="plus-icon" src="assets/plus.png">
             </div>
             <div class="name-container2">
                 <p id="add">Add Account</p>
             </div>
         </div>
     </div>
+</div>
+
+<div class="big-container">
+    <div class="card-container">
+        <div class="input-container">
+            <label for="details">
+                <input type="text" id="details" placeholder="Enter email, phone, name">
+            </label>
+            <label for="password-detail">
+                <input type="password" id="password-detail" placeholder="Enter password">
+                <div id="eye-container">
+                    <img src="assets/eye.png" alt="show/hide" id="eye">
+                </div>
+            </label>
+            <button id="login"><a href="#">Log In</a></button>
+        </div>
+        <p id="forgot-password">
+            <a href="#">Forgotten password?</a>
+        </p>
+        <hr>
+        <button id="create">
+            <a href="#">Create New Account</a>
+        </button>
+    </div>
+    <p id="end"><b>Create a Page</b> for a celebrity, brand or business</p>
 </div>
 </body>
 </html>

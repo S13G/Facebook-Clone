@@ -1,7 +1,6 @@
 body {
     background-color: #f0f2f5;
     font-family: Helvetica, sans-serif;
-    padding-bottom: 1000px;
 }
 
 .logo {
@@ -47,7 +46,7 @@ body {
     width: 170px;
     background-color: #f0f2f5;
     border: 1px solid lightgray;
-    box-shadow: 1px 1px 1px #dbdbdd;
+    box-shadow: 1px 2px 3px #dbdbdd;
 }
 
 .account-pic {
@@ -64,6 +63,7 @@ body {
     flex-direction: column;
     align-items: center;
     position: relative;
+    cursor: pointer;
 }
 
 .name-container, .name-container2 {
@@ -73,7 +73,7 @@ body {
     border-bottom-right-radius: 6px;
     border-bottom-left-radius: 6px;
     background-color: white;
-    box-shadow: 1px 1px 1px #dbdbdd;
+    box-shadow: 1px 1px 3px #dbdbdd;
 }
 
 .name-container p {
@@ -101,12 +101,14 @@ body {
     padding: 0 4px 2px 4px;
     font-size: 15px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 #add {
     font-size: 18px;
-    color: #035bb1;
+    color: #0083ff;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .name-container2 {
@@ -115,4 +117,107 @@ body {
 
 .plus-icon-container {
     margin-top: 50px;
+}
+
+.big-container {
+    display: flex;
+    width: 400px;
+    height: 360px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 56%;
+    margin-top: -22%;
+    box-shadow: 1px 3px 8px #aaaaaa;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.input-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+}
+
+.input-container input {
+    width: 330px;
+    height: 45px;
+    background-color: #c9ddea;
+    border: 1px solid #b8cbd5;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline-color: #719ece;
+    border: none;
+    background-color: white;
+}
+
+#password-detail {
+    position: relative;
+}
+
+#eye-container {
+    position: absolute;
+    margin-left: 21pc;
+    margin-top: -35px;
+    cursor: pointer;
+}
+
+#login {
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    background-color: #0083ff;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#forgot-password {
+    font-size: 14px;
+}
+
+#login a:-webkit-any-link {
+    text-decoration: none;
+    color: white;
+}
+
+#forgot-password a:-webkit-any-link {
+    color: #0083ff;
+    text-decoration: none;
+}
+
+#create {
+    height: 50px;
+    width: 210px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    margin-top: 14px;
+    background-color: #2eaf2e;
+}
+
+#create a:-webkit-any-link {
+    text-decoration: none;
+    color: white;
+}
+
+#end {
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+hr {
+    width: 360px;
+    border-top: 0 solid gray;
 }

@@ -5,72 +5,82 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Facebook Clone</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="styles/login.css" rel="stylesheet">
 </head>
 <body>
-<div class="facebook-container">
-    <div class="facebook-logo-container">
-        <img alt="facebook" class="logo" src="assets/facebook_logo.svg">
-    </div>
-    <div class="recent-container">
-        <p class="recent">Recent logins</p>
-        <p class="recent-info">
-            Click your picture or add an account.
-        </p>
-    </div>
-</div>
-
-<div class="account-container">
-    <div class="first-container">
-        <div class="pic-container">
-            <img alt="account-pic" class="account-pic" src="assets/ac-pix.jpg">
-            <div class="name-container">
-                <p>S13G</p>
+<main>
+    <section>
+        <div class="facebook-container">
+            <div class="facebook-logo-container">
+                <img alt="facebook" class="logo" src="assets/facebook_logo.svg">
             </div>
-            <div class="notification-count">6</div>
-            <div class="remove">x</div>
-        </div>
-    </div>
-
-    <div class="first-container">
-        <div class="pic-container">
-            <div class="plus-icon-container">
-                <img alt="plus-icon" src="assets/plus.png">
-            </div>
-            <div class="name-container2">
-                <p id="add">Add Account</p>
+            <div class="recent-container">
+                <p class="recent">Recent logins</p>
+                <p class="recent-info">
+                    Click your picture or add an account.
+                </p>
             </div>
         </div>
-    </div>
-</div>
+    </section>
 
-<div class="big-container">
-    <div class="card-container">
-        <div class="input-container">
-            <label for="details">
-                <input type="text" id="details" placeholder="Enter email, phone, name">
-            </label>
-            <label for="password-detail">
-                <input type="password" id="password-detail" placeholder="Enter password">
-                <div id="eye-container">
-                    <img src="assets/eye.png" alt="show/hide" id="eye">
+    <section>
+        <div class="account-container">
+            <div class="first-container">
+                <div class="pic-container">
+                    <img alt="account-pic" class="account-pic" src="assets/ac-pix.jpg">
+                    <div class="name-container">
+                        <p>S13G</p>
+                    </div>
+                    <div class="notification-count">6</div>
+                    <div class="remove">x</div>
                 </div>
-            </label>
-            <button id="login"><a href="#">Log In</a></button>
-        </div>
-        <p id="forgot-password">
-            <a href="#">Forgotten password?</a>
-        </p>
-        <hr>
-        <button id="create">
-            <a href="#">Create New Account</a>
-        </button>
-    </div>
-    <p id="end"><b>Create a Page</b> for a celebrity, brand or business</p>
-</div>
+            </div>
 
-<div class="country-container">
+            <div class="first-container">
+                <div class="pic-container">
+                    <div class="plus-icon-container">
+                        <img alt="plus-icon" src="assets/plus.png">
+                    </div>
+                    <div class="name-container2">
+                        <p id="add">Add Account</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="big-container">
+            <div class="card-container">
+                <div class="input-container">
+                    <label for="details">
+                        <input id="details" placeholder="Enter email, phone, name" type="text">
+                    </label>
+                    <label for="password-detail">
+                        <input id="password-detail" placeholder="Enter password" type="password">
+                        <div id="eye-container">
+                            <img alt="show/hide" id="eye" src="assets/eye.png">
+                        </div>
+                    </label>
+                    <button id="login"><a href="#">Log In</a></button>
+                </div>
+                <p id="forgot-password">
+                    <a href="#">Forgotten password?</a>
+                </p>
+                <hr>
+                <button id="create">
+                    <a href="#">Create New Account</a>
+                </button>
+            </div>
+            <p id="end"><b>Create a Page</b> for a celebrity, brand or business</p>
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="country-container">
     <div class="country-cover">
         <ul id="languages">
             <li>English (UK)</li>
@@ -118,7 +128,7 @@
             <li>Privacy</li>
             <li>Cookies</li>
             <li>AdChoices</li>
-            <li><img src="assets/plys.png" alt="playstore" id="ply"></li>
+            <li><img alt="playstore" id="ply" src="assets/plys.png"></li>
             <li>Terms</li>
             <li>Help</li>
             <li>Contact uploading and non-users</li>
@@ -127,6 +137,6 @@
             <li>Meta &copy; 2022</li>
         </ul>
     </div>
-</div>
+</footer>
 </body>
 </html>

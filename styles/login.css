@@ -182,6 +182,7 @@ input:focus {
 #login {
     height: 50px;
     font-size: 20px;
+    width: 372px;
     font-weight: bold;
     border: none;
     background-color: #0083ff;
@@ -233,7 +234,8 @@ hr {
     background-color: white;
     width: 100%;
     margin: 0;
-    height: 170px;
+    padding: 0;
+    height: 212px;
 }
 
 .country-cover {
@@ -246,15 +248,36 @@ ul {
     list-style-type: none;
     font-size: 12px;
     color: #737373;
-    justify-content: center;
+    align-items: center;
 }
 
 ul li {
     padding: 0 10px;
+    line-height: 1.6;
 }
 
 #line {
     width: 1000px;
     border-top: 1px solid #e1e1e1;
-    margin-left: 62px;
+    margin-left: 50px;
+}
+.fa {
+    font-size: 12px;
+}
+
+button {
+    border: 1px solid #d5d5d5;
+    border-radius: 2px;
+    width: 25px
+}
+
+#ply {
+    margin-left: -20px;
+    padding-top: 5px;
+}
+
+#services {
+    width: 1000px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
 }

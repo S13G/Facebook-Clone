@@ -42,6 +42,12 @@
     background-color: #f0f2f5;
     border: 1px solid lightgray;
     box-shadow: 1px 2px 3px #dbdbdd;
+    transition: bo;
+}
+
+.first-container:hover {
+    box-shadow: 0 2px 16px #acacac;
+    transition: box-shadow 0.50s;
 }
 
 .account-pic {
@@ -179,10 +185,6 @@ input:focus {
     cursor: pointer;
 }
 
-#forgot-password {
-    font-size: 14px;
-}
-
 #login a:-webkit-any-link {
     text-decoration: none;
     color: white;
@@ -192,9 +194,21 @@ input:focus {
     color: white;
 }
 
+#login:hover {
+    background-color: #0070ff;
+}
+
+#forgot-password {
+    font-size: 14px;
+}
+
 #forgot-password a:-webkit-any-link {
     color: #0083ff;
     text-decoration: none;
+}
+
+#forgot-password:hover {
+    text-decoration: underline;
 }
 
 #create {
@@ -206,6 +220,10 @@ input:focus {
     border-radius: 7px;
     margin-top: 14px;
     background-color: #2eaf2e;
+}
+
+#create:hover {
+    background-color: #2e9e2f;
 }
 
 #create a:-webkit-any-link {
@@ -273,4 +291,14 @@ button {
     width: 1000px;
     flex-wrap: wrap;
     padding-bottom: 10px;
+}
+
+#page {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#page:hover {
+    text-decoration: underline;
 }

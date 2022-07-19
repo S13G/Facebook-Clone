@@ -15,7 +15,12 @@
 }
 
 .left-section {
+    width: 300px;
     background-color: lightblue;
+}
+
+#fb-logo {
+    height: 24px
 }
 
 .middle-section {

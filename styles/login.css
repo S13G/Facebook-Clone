@@ -272,6 +272,7 @@ ul li {
     border-top: 1px solid #e1e1e1;
     margin-left: 50px;
 }
+
 .fa {
     font-size: 12px;
 }
@@ -301,4 +302,67 @@ button {
 
 #page:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 930px) {
+    .big-container {
+        display: flex;
+        width: 400px;
+        height: 360px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 7%;
+        margin-top: 5%;
+        box-shadow: 1px 3px 8px #aaaaaa;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 220px;
+    }
+
+    .main-cover {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .facebook-cover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .second-main-cover, .recent-container, .facebook-container, .big-container, .account-container {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .account-container {
+        flex-direction: row;
+    }
+
+    .recent {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .facebook-container {
+        margin-top: 1vw;
+    }
+
+    .total-cover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .account-container {
+        margin-top: 0;
+    }
+
+    }
 }

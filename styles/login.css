@@ -307,7 +307,8 @@ button {
 @media (max-width: 930px) {
     .big-container {
         display: flex;
-        width: 400px;
+        flex: 1;
+        width: 350px;
         height: 360px;
         flex-direction: column;
         align-items: center;
@@ -325,6 +326,44 @@ button {
         gap: 20px;
         align-items: center;
         justify-content: center;
+    }
+
+    section {
+        display: flex;
+        justify-content: right;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 24em;
+    }
+
+    .account-container {
+        width: 250px;
+        height: 150px;
+    }
+
+    .name-container, .name-container2 {
+        width: 113px;
+        top: 110px;
+        padding: 7px 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .plus-icon-container {
+        margin-top: 30px;
+    }
+
+    .name-container p {
+        font-size: 14px;
+    }
+
+    #add {
+        font-size: 14px;
     }
 
     .facebook-cover {
@@ -353,16 +392,53 @@ button {
         margin-top: 1vw;
     }
 
-    .total-cover {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .main-cover {
+        width: 100%;
     }
 
     .account-container {
         margin-top: 0;
     }
 
+    .country-container {
+        width: 200vw;
+        height: 310px;
     }
+
+    .country-cover {
+        padding-left: 0;
+        padding-right: 0;
+        width: 500px;
+        white-space: nowrap;
+    }
+
+    .input-container input {
+        width: 280px;
+        margin-left: 5px;
+    }
+
+    #languages, #services {
+        display: flex;
+        width: 390px;
+        flex-wrap: wrap;
+    }
+
+    #login {
+        width: 320px;
+        margin-left: 5px;
+    }
+
+    #eye-container {
+        margin-left: 19pc;
+    }
+
+    ul {
+        padding-left: 10px;
+    }
+
+    #line {
+        margin-left: 10px;
+        width: 420px;
+    }
+
 }

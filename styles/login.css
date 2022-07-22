@@ -312,7 +312,7 @@ button {
         height: 360px;
         flex-direction: column;
         align-items: center;
-        margin-left: 7%;
+        margin-left: -3% !important;
         margin-top: 5%;
         box-shadow: 1px 3px 8px #aaaaaa;
         background-color: white;
@@ -401,14 +401,15 @@ button {
     }
 
     .country-container {
-        width: 200vw;
+        width: 100%;
         height: 310px;
     }
 
     .country-cover {
         padding-left: 0;
         padding-right: 0;
-        width: 500px;
+        padding-bottom: 0;
+        width: 100%;
         white-space: nowrap;
     }
 
@@ -419,7 +420,7 @@ button {
 
     #languages, #services {
         display: flex;
-        width: 390px;
+        width: 370px;
         flex-wrap: wrap;
     }
 

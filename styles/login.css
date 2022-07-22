@@ -251,7 +251,7 @@ hr {
 
 .country-cover {
     width: 980px;
-    padding: 20px 130px;
+    padding: 20px 100px;
 }
 
 ul {
@@ -289,7 +289,7 @@ button {
 }
 
 #services {
-    width: 1000px;
+    width: 980px;
     flex-wrap: wrap;
     padding-bottom: 10px;
 }
@@ -304,15 +304,11 @@ button {
     text-decoration: underline;
 }
 
-@media (max-width: 930px) {
+@media (max-width: 540px) {
     .big-container {
-        display: flex;
-        flex: 1;
         width: 350px;
         height: 360px;
-        flex-direction: column;
-        align-items: center;
-        margin-left: -3% !important;
+        margin-left: 0 !important;
         margin-top: 5%;
         box-shadow: 1px 3px 8px #aaaaaa;
         background-color: white;
@@ -338,7 +334,6 @@ button {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 24em;
     }
 
     .account-container {
@@ -392,17 +387,13 @@ button {
         margin-top: 1vw;
     }
 
-    .main-cover {
-        width: 100%;
-    }
-
     .account-container {
         margin-top: 0;
     }
 
     .country-container {
         width: 100%;
-        height: 310px;
+        height: 330px;
     }
 
     .country-cover {
@@ -420,7 +411,7 @@ button {
 
     #languages, #services {
         display: flex;
-        width: 370px;
+        width: 353px;
         flex-wrap: wrap;
     }
 
@@ -434,12 +425,164 @@ button {
     }
 
     ul {
-        padding-left: 10px;
+        padding-left: 5px;
     }
 
     #line {
-        margin-left: 10px;
-        width: 360px !important;
+        margin-left: 5px;
+        width: 340px !important;
     }
 
+
+}
+
+@media (min-width: 541px) and (max-width: 979px) {
+    .big-container {
+        width: 350px;
+        height: 360px;
+        margin-left: 0 !important;
+        margin-top: 5%;
+        box-shadow: 1px 3px 8px #aaaaaa;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 220px;
+    }
+
+    .main-cover {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    section {
+        display: flex;
+        justify-content: right;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .account-container {
+        width: 250px;
+        height: 150px;
+    }
+
+    .name-container, .name-container2 {
+        width: 113px;
+        top: 110px;
+        padding: 7px 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .plus-icon-container {
+        margin-top: 30px;
+    }
+
+    .name-container p {
+        font-size: 14px;
+    }
+
+    #add {
+        font-size: 14px;
+    }
+
+    .facebook-cover {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .second-main-cover, .recent-container, .facebook-container, .big-container, .account-container {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .account-container {
+        flex-direction: row;
+    }
+
+    .recent {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .facebook-container {
+        margin-top: 1vw;
+    }
+
+    .account-container {
+        margin-top: 0;
+    }
+
+    .country-container {
+        width: 100%;
+        height: 310px;
+    }
+
+    .country-cover {
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-bottom: 0;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .input-container input {
+        width: 280px;
+        margin-left: 5px;
+    }
+
+    #languages, #services {
+        display: flex;
+        width: 540px !important;
+        flex-wrap: wrap;
+    }
+
+    #login {
+        width: 320px;
+        margin-left: 5px;
+    }
+
+    #eye-container {
+        margin-left: 19pc;
+    }
+
+    ul {
+        padding-left: 5px;
+    }
+
+    #line {
+        margin-left: 5px;
+        width: 880px !important;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1080px) {
+    .big-container {
+        display: flex;
+        width: 400px;
+        height: 360px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 54%;
+        margin-top: -27%;
+        box-shadow: 1px 3px 8px #aaaaaa;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 220px;
+    }
+
+    .country-cover {
+        width: 980px;
+        padding: 20px 80px 0 2px;
+    }
 }

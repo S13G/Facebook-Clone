@@ -237,7 +237,7 @@ input:focus {
 }
 
 hr {
-    width: 360px;
+    width: 320px;
     border-top: 0 solid gray;
 }
 
@@ -439,7 +439,7 @@ button {
 
     #line {
         margin-left: 10px;
-        width: 420px;
+        width: 360px !important;
     }
 
 }

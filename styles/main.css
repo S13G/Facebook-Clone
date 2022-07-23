@@ -11,22 +11,92 @@
     display: flex;
     justify-content: space-between;
     height: 70px;
-    background-color: darkgray;
+    background-color: #232323;
 }
 
 .left-section {
-    width: 300px;
-    background-color: lightblue;
+    display: flex;
+    flex: 1;
+    max-width: 330px;
+    align-items: center;
+    margin-top: 5px;
+    gap: 5px;
 }
 
 #fb-logo {
-    height: 24px
+    height: 43px;
+    margin: 10px 8px 0 15px;
+}
+
+.search-box-container {
+    display: flex;
+    margin-top: 5px;
+}
+
+#search {
+    width: 257px;
+    height: 42px;
+    border: none;
+    border-radius: 25px;
+    background-color: #434343;
+    margin-left: -0.3rem;
+    padding: 1px 0 0 0;
+    position: relative;
+}
+
+.search-icon-container {
+    position: absolute;
+}
+
+#search-icon {
+    height: 22px;
+    margin: 11px 0 0 5px;
+}
+
+#search::placeholder {
+    color: white;
+    font-size: 16px;
+    padding-left: 35px;
 }
 
 .middle-section {
-    background-color: lightpink;
+    display: flex;
+    flex: 1;
+    max-width: 600px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.middle-section img {
+    height: 27px;
+}
+
+.fa-home, .fa-video, .fa-newspaper, .fa-people-group {
+    color: #636363;
+}
+
+.middle-section i:hover {
+    color: #0083ff;
+    cursor: pointer;
+    transition: color 0.40s;
 }
 
 .right-section {
-    background-color: lightgreen;
+    display: flex;
+    flex: 1;
+    max-width: 220px;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+.hamburger-cover, .messenger-cover, .bell-cover {
+    width: 45px;
+    height: 45px;
+    background-color: #434343;
+    border-radius: 25px;
+}
+
+#pic {
+    height: 45px;
+}
+

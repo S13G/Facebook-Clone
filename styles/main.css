@@ -133,15 +133,18 @@ p {
 div::-webkit-scrollbar {
     width: 10px;
     height: 5px;
+    display: none;
 }
 
-div::-webkit-scrollbar-thumb {
-    width: 5px;
-    height: 15px;
+.left-sidebar:hover::-webkit-scrollbar,
+.right-sidebar:hover::-webkit-scrollbar{
+    display: block;
+}
+
+div::-webkit-scrollbar-thumb {;
     background-color: #434343;
     border: none;
     border-radius: 10px;
-
 }
 
 div::-webkit-scrollbar-track {

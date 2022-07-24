@@ -4,7 +4,13 @@ html, body {
 }
 
 body {
-    background-color: #f0f2f5;
+    background-color: #1c1e21;
+    /*background-color: #f0f2f5; light mode*/
     font-family: Helvetica, sans-serif;
     line-height: 1.34;
+}
+
+p {
+    margin: 0;
+    padding: 0;
 }

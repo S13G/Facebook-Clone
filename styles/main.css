@@ -1,3 +1,8 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .header-container {
     position: fixed;
     top: 0;
@@ -100,7 +105,11 @@
     cursor: pointer;
 }
 
-.hamburger-cover, .messenger-cover, .bell-cover, .image-cover {
+.hamburger-cover,
+.messenger-cover,
+.bell-cover,
+.image-cover,
+.group-cover {
     display: flex;
     color: #cfc7c7;
     width: 45px;
@@ -111,13 +120,41 @@
     align-items: center;
 }
 
+.group-cover {
+    width: 35px;
+    height: 35px;
+}
+
 #pic {
     height: 45px;
     border-radius: 25px;
 }
 
+div::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+div::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 15px;
+    background-color: #434343;
+    border: none;
+    border-radius: 10px;
+
+}
+
+div::-webkit-scrollbar-track {
+    background-color: #1c1e21;
+}
+
+div::-webkit-scrollbar-thumb:hover {
+    background-color: #535353;
+}
+
 .left-sidebar, .right-sidebar {
     position: absolute;
+    overflow-y: scroll;
     top: 85px;
     left: 0;
     bottom: 0;
@@ -129,7 +166,13 @@
     gap: 15px;
 }
 
-.sidebar-item, .sidebar-item2, .sidebar-item3, .sidebar-item4 {
+.right-sidebar {
+    left: 1040px;
+}
+
+.sidebar-item, .sidebar-item2,
+.sidebar-item3, .sidebar-item4,
+.sidebar-item5 {
     display: flex;
     gap: 10px;
     font-size: 0.9em;
@@ -145,12 +188,15 @@
     color: white;
 }
 
-.sidebar-item2, .sidebar-item3 {
+.sidebar-item2, .sidebar-item3,
+.sidebar-item5 {
     color: white;
     width: 200px;
 }
 
-.sidebar-item:hover, .sidebar-item2:hover {
+.sidebar-item:hover,
+.sidebar-item2:hover,
+.sidebar-item5 {
     cursor: pointer
 }
 
@@ -167,13 +213,13 @@
     border-radius: 8px;
 }
 
-.sidebar-item3 img {
-    height: 50px;
-    border-radius: 12px;
+.sidebar-item2 .gomsd {
+    border-radius: 15px;
 }
 
-.gomsd {
-    border-radius: 15px;
+.sidebar-item3 img {
+    height: 50px;
+    border-radius: 25px;
 }
 
 .angle-down {
@@ -199,7 +245,7 @@
 }
 
 .divider2 {
-    width: 280px;
+    width: 290px;
 }
 
 .shortcut, .requests {
@@ -218,7 +264,7 @@
     color: #0083ff;
 }
 
-#edit:hover, #see:hover {
+#edit:hover, #see:hover, #birth:hover {
     cursor: pointer
 }
 
@@ -257,11 +303,6 @@ main {
     margin-top: 50px;
     justify-content: center;
     font-size: 100px;
-}
-
-.right-sidebar {
-    left: 1040px;
-    width: 280px;
 }
 
 .top-section {
@@ -304,7 +345,6 @@ main {
 
 .sidebar-item3 .picture {
     align-self: flex-start;
-    border-radius: 5px;
 }
 
 .info p:first-child {
@@ -344,6 +384,10 @@ main {
     gap: 10px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 #confirm, #delete {
     padding: 10px 17px 10px 17px;
     border-radius: 8px;
@@ -366,4 +410,21 @@ main {
 
 .sidebar-item4 {
     color: white;
+}
+
+.contacts-cover {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10px;
+}
+
+.contact-icons {
+    display: inherit;
+    gap: 20px;
+    color: #bdb5b5;
+}
+
+.fa-gdp {
+    color: #b8cbd5;
 }

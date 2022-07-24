@@ -129,7 +129,7 @@
     gap: 15px;
 }
 
-.sidebar-item, .sidebar-item2 {
+.sidebar-item, .sidebar-item2, .sidebar-item3, .sidebar-item4 {
     display: flex;
     gap: 10px;
     font-size: 0.9em;
@@ -145,7 +145,7 @@
     color: white;
 }
 
-.sidebar-item2 {
+.sidebar-item2, .sidebar-item3 {
     color: white;
     width: 200px;
 }
@@ -154,9 +154,22 @@
     cursor: pointer
 }
 
+.sidebar-item3:hover p {
+    cursor: pointer;
+}
+
+.sidebar-item4:hover p {
+    cursor: pointer
+}
+
 .sidebar-item2 img {
     height: 30px;
     border-radius: 8px;
+}
+
+.sidebar-item3 img {
+    height: 50px;
+    border-radius: 12px;
 }
 
 .gomsd {
@@ -178,14 +191,14 @@
     padding-top: 2px;
 }
 
-#divider, #divider2 {
+#divider, .divider2 {
     width: 250px;
     border-top: 0 solid #e1e1e1;
     margin: 8px 0;
     opacity: 0.2;
 }
 
-#divider2 {
+.divider2 {
     width: 280px;
 }
 
@@ -197,6 +210,11 @@
 
 #edit, #see {
     margin: 0 0 0 90px;
+    color: #0083ff;
+}
+
+#birth {
+    margin: 0 0 0 140px;
     color: #0083ff;
 }
 
@@ -242,8 +260,8 @@ main {
 }
 
 .right-sidebar {
-    left: 1000px;
-    width: 288px;
+    left: 1040px;
+    width: 280px;
 }
 
 .top-section {
@@ -263,7 +281,7 @@ main {
 
 .icons p {
     font-weight: bold;
-    color:  #939393;
+    color: #939393;
 }
 
 .icons i {
@@ -276,4 +294,76 @@ main {
 
 #notifications, #promotion {
     padding-left: 3px;
+}
+
+.info {
+    display: inherit;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.sidebar-item3 .picture {
+    align-self: flex-start;
+    border-radius: 5px;
+}
+
+.info p:first-child {
+    text-align: justify;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.name {
+    display: inherit;
+    flex: 1;
+    width: 220px;
+    justify-content: space-between;
+}
+
+#days {
+    font-size: 13px;
+    color: #939393;
+}
+
+.friend-friends {
+    display: inherit;
+    align-items: center;
+    font-size: small;
+    gap: 5px;
+    color: #939393;
+    margin-bottom: 6px;
+}
+
+.friend-friends img {
+    height: 20px;
+    border-radius: 0;
+}
+
+.buttons {
+    display: inherit;
+    gap: 10px;
+}
+
+#confirm, #delete {
+    padding: 10px 17px 10px 17px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #0083ff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#delete {
+    padding: 10px 19px 10px 19px;
+    background-color: #434343;
+}
+
+.present {
+    align-self: flex-start;
+}
+
+.sidebar-item4 {
+    color: white;
 }

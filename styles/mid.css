@@ -6,3 +6,72 @@ p {
 *, *:before, *:after {
     box-sizing: border-box;
 }
+
+.status-cover {
+    display: flex;
+    flex: 1;
+    max-width: 650px;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: inherit;
+    overflow: hidden;
+    position: relative;
+    margin-top: 40px;
+    width: 120px;
+    height: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: #434343;
+}
+
+.profile {
+    position: absolute;
+    height: 220px;
+}
+
+.box .story-cover {
+    align-self: flex-end;
+}
+
+.story-cover {
+    display: inherit;
+    flex-direction: column;
+    position: absolute;
+    background-color: #434343;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.story-cover2 {
+    display: inherit;
+    flex-direction: column;
+    position: absolute;
+}
+
+.story-plus-icon {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    background-color: #434343 ;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: -15px;
+}
+
+#add-plus {
+    height: 33px;
+    margin-left: -1px;
+}
+
+#create-story-text {
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+

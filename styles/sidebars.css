@@ -73,7 +73,7 @@ p {
 .middle-section {
     display: flex;
     flex: 1;
-    margin-left: -50px;
+    margin-left: -75px;
     max-width: 600px;
     align-items: center;
     justify-content: space-evenly;
@@ -131,7 +131,7 @@ p {
 }
 
 div::-webkit-scrollbar {
-    width: 10px;
+    width: 7px;
     height: 5px;
     display: none;
 }
@@ -171,7 +171,7 @@ div::-webkit-scrollbar-thumb:hover {
 }
 
 .right-sidebar {
-    left: 1040px;
+    left: 1050px;
 }
 
 .sidebar-item, .sidebar-item2,
@@ -249,7 +249,7 @@ div::-webkit-scrollbar-thumb:hover {
 }
 
 .divider2 {
-    width: 290px;
+    width: 270px;
 }
 
 .shortcut, .requests {
@@ -259,12 +259,12 @@ div::-webkit-scrollbar-thumb:hover {
 }
 
 #edit, #see {
-    margin: 0 0 0 90px;
+    margin: 0 0 0 70px;
     color: #0083ff;
 }
 
 #birth {
-    margin: 0 0 0 140px;
+    margin: 0 0 0 130px;
     color: #0083ff;
 }
 
@@ -360,7 +360,7 @@ main {
 .name {
     display: inherit;
     flex: 1;
-    width: 220px;
+    width: 200px;
     justify-content: space-between;
 }
 

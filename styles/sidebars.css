@@ -164,6 +164,7 @@ div::-webkit-scrollbar-thumb:hover {
     width: 300px;
     z-index: 10;
     padding-left: 20px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     gap: 15px;

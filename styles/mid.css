@@ -7,9 +7,18 @@ p {
     box-sizing: border-box;
 }
 
+.mid-entire-cover {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
 .status-cover {
     display: flex;
     flex: 1;
+    gap: 10px;
     max-width: 650px;
     justify-content: space-evenly;
 }
@@ -29,6 +38,14 @@ p {
 .profile {
     position: absolute;
     height: 220px;
+}
+
+.lion {
+    height: 240px;
+}
+
+.alucard {
+    height: 200px;
 }
 
 .box .story-cover {
@@ -57,7 +74,7 @@ p {
     display: inherit;
     align-items: center;
     justify-content: center;
-    background-color: #434343 ;
+    background-color: #434343;
     width: 40px;
     height: 40px;
     border-radius: 20px;
@@ -75,3 +92,97 @@ p {
     font-weight: bold;
 }
 
+.mind-cover {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 120px;
+    gap: 5px;
+    background-color: #313131;
+    border-radius: 10px;
+}
+
+.mind-input {
+    display: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.mind-input img {
+    height: 40px;
+    border-radius: 20px;
+}
+
+.mind-input input {
+    width: 430px;
+    padding: 12px 0 12px 12px;
+    border-radius: 25px;
+    border: none;
+    background-color: #515151;
+}
+
+#text-mind::placeholder {
+    font-size: 16px;
+    color: #939393;
+}
+
+#mind-split {
+    border-top: 0 solid white;
+    opacity: 0.2;
+    width: 470px;
+    margin-top: 2px;
+}
+
+.mind-media {
+    display: inherit;
+    justify-content: space-evenly;
+    color: #d3d3d3;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.media-cover {
+    display: inherit;
+    align-items: center;
+    gap: 8px;
+}
+
+.live-video {
+    color: #fd4a56;
+}
+
+.photo-video {
+    color: rgba(57, 228, 134, 0.65);
+}
+
+.smiley {
+    color: #e3c215;
+}
+
+.create-room-cover {
+    flex-direction: row;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.create-room {
+    display: inherit;
+    width: 165px;
+    height: 39px;
+    border: 2px solid rgba(18, 66, 103, 0.4);
+    border-radius: 45px;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #3e9dfa;
+    justify-content: center;
+    gap: 10px;
+}
+
+.video-gradient {
+    color: linear-gradient(red, yellow);
+}

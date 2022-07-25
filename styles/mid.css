@@ -48,11 +48,12 @@ p {
     height: 200px;
 }
 
-.box .story-cover {
+.box .story-cover, .story-cover2 {
     align-self: flex-end;
 }
 
-.story-cover {
+.story-cover,
+.story-cover2 {
     display: inherit;
     flex-direction: column;
     position: absolute;
@@ -65,10 +66,9 @@ p {
 }
 
 .story-cover2 {
-    display: inherit;
-    flex-direction: column;
-    position: absolute;
+    background-color: transparent;
 }
+
 
 .story-plus-icon {
     display: inherit;
@@ -81,15 +81,34 @@ p {
     margin-top: -15px;
 }
 
+.pic-online {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background-color: transparent;
+    border: 4px solid #0083ff;
+    color: #0015;
+}
+
+.on-top {
+    left: 10px;
+}
+
 #add-plus {
     height: 33px;
     margin-left: -1px;
 }
 
-#create-story-text {
+#create-story-text, .create-story-text {
     font-size: 13px;
     color: white;
     font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.names {
+    margin-top: 20px;
+    width: 100px;
 }
 
 .mind-cover {
@@ -173,7 +192,7 @@ p {
     display: inherit;
     width: 165px;
     height: 39px;
-    border: 2px solid rgba(18, 66, 103, 0.4);
+    border: 2px solid rgba(36, 103, 152, 0.4);
     border-radius: 45px;
     align-items: center;
     font-size: 15px;
@@ -183,6 +202,33 @@ p {
     gap: 10px;
 }
 
-.video-gradient {
-    color: linear-gradient(red, yellow);
+.fa-gradient:before {
+    background-image: -webkit-linear-gradient(left, #3e9dfa 10% , #9c64b8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.all-profiles {
+    display: inherit;
+    width: 250px;
+    color: #939393;
+    justify-content: space-evenly;
+}
+
+.each-section {
+    position: relative;
+}
+
+.online, .online-on-top {
+    position: absolute;
+    left: 18px;
+    top: 30px;
+    width: 10px;
+    height: 10px;
+    background-color: #2eaf2e;
+}
+
+.online-on-top {
+    left: 25px;
+    top: 35px;
 }

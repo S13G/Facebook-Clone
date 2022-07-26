@@ -248,3 +248,20 @@ p {
     left: 25px;
     top: 35px;
 }
+
+
+.posts {
+    position: relative;
+    height: 700px;
+    margin-bottom: 20px;
+}
+
+.posts-top {
+    display: inherit;
+    align-items: center;
+    gap: 5px;
+}
+
+.post-user-pic {
+    font-size: 2.3em;
+}

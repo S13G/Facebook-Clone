@@ -156,7 +156,7 @@ div::-webkit-scrollbar-thumb:hover {
 }
 
 .left-sidebar, .right-sidebar {
-    position: absolute;
+    position: fixed;
     overflow-y: scroll;
     top: 85px;
     left: 0;
@@ -419,6 +419,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 270px;
     margin-top: -10px;
 }
 

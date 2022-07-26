@@ -90,6 +90,22 @@ p {
     color: #0015;
 }
 
+.online-next {
+    background-color: #434343;
+    border: none;
+    top: 180px;
+    left: 986px;
+    color: #939393;
+}
+
+.online-room {
+    background-color: #434343;
+    border: none;
+    top: 465px;
+    left: 836px;
+    color: #939393;
+}
+
 .on-top {
     left: 10px;
 }

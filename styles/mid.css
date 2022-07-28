@@ -254,14 +254,44 @@ p {
     position: relative;
     height: 700px;
     margin-bottom: 20px;
+    padding: 10px 25px;
 }
 
 .posts-top {
     display: inherit;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
 }
 
 .post-user-pic {
     font-size: 2.3em;
+    color: #939393;
+}
+
+.post-user-info #username {
+    font-weight: bold;
+    color: #d8d8d8;
+}
+
+.post-user-info #post-time {
+    font-size: 0.8em;
+    color: #939393;
+}
+
+#post-time {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.circle-size {
+    font-size: 0.1em;
+}
+
+.menu-eclipse {
+    position: absolute;
+    display: inherit;
+    top: 35px;
+    align-self: flex-end;
+    color: #939393;
 }

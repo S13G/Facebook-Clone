@@ -196,6 +196,14 @@ p {
     font-size: 14px;
 }
 
+.heart-icon {
+    margin-right: -5px;
+}
+
+.care-icon {
+    margin-left: -5px;
+}
+
 .mind-split {
     border-top: 0 solid white;
     opacity: 0.2;
@@ -344,13 +352,34 @@ p {
     padding: 10px 25px;
 }
 
-.emoticons {
+.emoticons,
+.post-emoticons {
     display: inherit;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     color: #939393;
-    margin: 4px 0;
+    margin: 2px 0;
+}
+
+.post-emoticons {
+    margin-left: 20px;
+}
+
+.post-emoticons {
+    justify-content: normal;
+    gap: 10px;
+}
+
+.reacts {
+    display: inherit;
+    height: 18px;
+}
+
+.reacted-people {
+    font-size: 15px;
+    color: #a5a5a5;
+
 }
 
 .emoticons p {

@@ -134,78 +134,80 @@
 
 <main>
     <div class="mid-entire-cover">
-        <div class="status-cover">
-            <div class="box">
-                <div class="image">
-                    <img alt="picture" class="profile" src="assets/Eren.jpg">
-                </div>
-                <div class="story-cover">
-                    <div class="story-plus-icon">
-                        <img alt="plus" id="add-plus" src="assets/plus.png">
+        <div class="status-cover-container">
+            <div class="status-cover">
+                <div class="box">
+                    <div class="image">
+                        <img alt="picture" class="profile" src="assets/Eren.jpg">
                     </div>
-                    <p id="create-story-text">
-                        Create story
-                    </p>
+                    <div class="story-cover">
+                        <div class="story-plus-icon">
+                            <img alt="plus" id="add-plus" src="assets/plus.png">
+                        </div>
+                        <p id="create-story-text">
+                            Create story
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img alt="picture" class="profile alucard" src="assets/alucard.jpg">
+                <div class="box">
+                    <div class="image">
+                        <img alt="picture" class="profile alucard" src="assets/alucard.jpg">
+                    </div>
+                    <div class="story-plus-icon pic-online">
+                        <i class="fa-regular fa-circle-user fa-2xl"></i>
+                        <div class="story-plus-icon online-on-top"></div>
+                    </div>
+                    <div class="story-cover2">
+                        <p class="create-story-text names">
+                            John Smith
+                        </p>
+                    </div>
                 </div>
-                <div class="story-plus-icon pic-online">
-                    <i class="fa-regular fa-circle-user fa-2xl"></i>
-                    <div class="story-plus-icon online-on-top"></div>
+                <div class="box">
+                    <div class="image">
+                        <img alt="picture" class="profile" src="assets/Eren.jpg">
+                    </div>
+                    <div class="story-plus-icon pic-online">
+                        <i class="fa-regular fa-circle-user fa-2xl"></i>
+                        <div class="story-plus-icon online-on-top"></div>
+                    </div>
+                    <div class="story-cover2">
+                        <p class="create-story-text names">
+                            John Kay
+                        </p>
+                    </div>
                 </div>
-                <div class="story-cover2">
-                    <p class="create-story-text names">
-                        John Smith
-                    </p>
+                <div class="box">
+                    <div class="image">
+                        <img alt="picture" class="profile lion" src="assets/Hello%20Lion.jpg">
+                    </div>
+                    <div class="story-plus-icon pic-online">
+                        <i class="fa-regular fa-circle-user fa-2xl"></i>
+                        <!--                    <div class="story-plus-icon online-on-top"></div> if the user is online-->
+                    </div>
+                    <div class="story-cover2">
+                        <p class="create-story-text names">
+                            John Bull
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img alt="picture" class="profile" src="assets/Eren.jpg">
+                <div class="box">
+                    <div class="image">
+                        <img alt="picture" class="profile" src="assets/Eren.jpg">
+                    </div>
+                    <div class="story-plus-icon pic-online">
+                        <i class="fa-regular fa-circle-user fa-2xl"></i>
+                        <div class="story-plus-icon online-on-top"></div>
+                    </div>
+                    <div class="story-cover2">
+                        <p class="create-story-text names">
+                            John Doe
+                        </p>
+                    </div>
                 </div>
-                <div class="story-plus-icon pic-online">
-                    <i class="fa-regular fa-circle-user fa-2xl"></i>
-                    <div class="story-plus-icon online-on-top"></div>
+                <div class="story-plus-icon pic-online online-next">
+                    <i class="fa-solid fa-arrow-right fa-1xl"></i>
                 </div>
-                <div class="story-cover2">
-                    <p class="create-story-text names">
-                        John Kay
-                    </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img alt="picture" class="profile lion" src="assets/Hello%20Lion.jpg">
-                </div>
-                <div class="story-plus-icon pic-online">
-                    <i class="fa-regular fa-circle-user fa-2xl"></i>
-                    <!--                    <div class="story-plus-icon online-on-top"></div> if the user is online-->
-                </div>
-                <div class="story-cover2">
-                    <p class="create-story-text names">
-                        John Bull
-                    </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="image">
-                    <img alt="picture" class="profile" src="assets/Eren.jpg">
-                </div>
-                <div class="story-plus-icon pic-online">
-                    <i class="fa-regular fa-circle-user fa-2xl"></i>
-                    <div class="story-plus-icon online-on-top"></div>
-                </div>
-                <div class="story-cover2">
-                    <p class="create-story-text names">
-                        John Doe
-                    </p>
-                </div>
-            </div>
-            <div class="story-plus-icon pic-online online-next">
-                <i class="fa-solid fa-arrow-right fa-1xl"></i>
             </div>
         </div>
 
@@ -217,7 +219,7 @@
                 </label>
             </div>
 
-            <hr id="mind-split">
+            <hr class="mind-split">
 
             <div class="mind-media">
                 <div class="media-cover">
@@ -238,38 +240,40 @@
         </div>
 
         <div class="mind-cover create-room-cover">
-            <div class="create-room">
-                <i class="fa-solid fa-video fa-lg live-video fa-gradient"></i>
-                <p>Create room</p>
-            </div>
-            <div class="all-profiles">
-                <div class="each-section">
-                    <i class="fa-regular fa-circle-user fa-2xl"></i>
-                    <div class="story-plus-icon online"></div>
+            <div class="create-room-cover-container">
+                <div class="create-room">
+                    <i class="fa-solid fa-video fa-lg live-video fa-gradient"></i>
+                    <p>Create room</p>
                 </div>
-                <div class="each-section">
-                    <i class="fa-regular fa-circle-user fa-2xl"></i>
-                    <div class="story-plus-icon online"></div>
+                <div class="all-profiles">
+                    <div class="each-section">
+                        <i class="fa-regular fa-circle-user fa-2xl"></i>
+                        <div class="story-plus-icon online"></div>
+                    </div>
+                    <div class="each-section">
+                        <i class="fa-regular fa-circle-user fa-2xl"></i>
+                        <div class="story-plus-icon online"></div>
+                    </div>
+                    <div class="each-section">
+                        <i class="fa-regular fa-circle-user fa-2xl"></i>
+                        <div class="story-plus-icon online"></div>
+                    </div>
+                    <div class="each-section">
+                        <i class="fa-regular fa-circle-user fa-2xl"></i>
+                        <div class="story-plus-icon online"></div>
+                    </div>
+                    <div class="each-section">
+                        <i class="fa-regular fa-circle-user fa-2xl"></i>
+                        <div class="story-plus-icon online"></div>
+                    </div>
+                    <div class="each-section">
+                        <i class="fa-regular fa-circle-user fa-2xl"></i>
+                        <div class="story-plus-icon online"></div>
+                    </div>
+                    <div class="story-plus-icon pic-online online-room">
+                        <i class="fa-solid fa-arrow-right fa-1xl"></i>
+                    </div>
                 </div>
-                <div class="each-section">
-                    <i class="fa-regular fa-circle-user fa-2xl"></i>
-                    <div class="story-plus-icon online"></div>
-                </div>
-                <div class="each-section">
-                    <i class="fa-regular fa-circle-user fa-2xl"></i>
-                    <div class="story-plus-icon online"></div>
-                </div>
-                <div class="each-section">
-                    <i class="fa-regular fa-circle-user fa-2xl"></i>
-                    <div class="story-plus-icon online"></div>
-                </div>
-                <div class="each-section">
-                    <i class="fa-regular fa-circle-user fa-2xl"></i>
-                    <div class="story-plus-icon online"></div>
-                </div>
-            </div>
-            <div class="story-plus-icon pic-online online-room">
-                <i class="fa-solid fa-arrow-right fa-1xl"></i>
             </div>
         </div>
 
@@ -279,14 +283,131 @@
                     <i class="fa-regular fa-circle-user"></i>
                 </div>
                 <div class="post-user-info">
-                    <p id="username">John Smith</p>
-                    <p id="post-time">Just now <i class="fa-solid fa-circle circle-size"></i>
+                    <p class="username">Google</p>
+                    <p class="post-time">Sponsored <i class="fa-solid fa-circle circle-size"></i>
                         <i class="fa-solid fa-earth-africa"></i>
                     </p>
                 </div>
             </div>
             <div class="menu-eclipse">
                 <i class="fa-solid fa-ellipsis fa-lg"></i>
+            </div>
+
+            <div class="posts-text-width">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Justo donec enim diam vulputate ut pharetra sit amet aliquam. Magna sit amet
+                    purus gravida quis blandit turpis cursus in. Et tortor consequat id porta nibh venenatis cras. Sed
+                    penatibus et magnis dis.
+                </p>
+            </div>
+
+            <div class="posts-image-vid-files">
+                <img alt="image/video" src="assets/google.png">
+            </div>
+
+            <div class="emoticons">
+                <div class="like-emoticon">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <p>Like</p>
+                </div>
+
+                <div class="comment-emoticon">
+                    <i class="fa-regular fa-message comment-message-icon"></i>
+                    <p>Comment</p>
+                </div>
+
+                <div class="share-emoticon">
+                    <i class="fa-solid fa-share share-icon"></i>
+                    <p>Share</p>
+                </div>
+            </div>
+
+            <hr class="mind-split">
+
+            <div class="mind-input post-input">
+                <img alt="account" src="assets/ac-pix.jpg">
+                <div class="input-text-container">
+                    <label for="text-mind">
+                        <input id="post-mind" placeholder="Write a comment..." type="text">
+                        <div class="input-icons-container">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <i class="fa-solid fa-camera"></i>
+                            <i class="fa-regular fa-file-image"></i>
+                            <i class="fa-regular fa-floppy-disk"></i>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="post-tooltip">
+                <p>Press Enter to post.</p>
+            </div>
+        </div>
+
+        <div class="mind-cover posts">
+            <div class="posts-top">
+                <div class="post-user-pic">
+                    <i class="fa-regular fa-circle-user"></i>
+                </div>
+                <div class="post-user-info">
+                    <p class="username">Google</p>
+                    <p class="post-time">Sponsored <i class="fa-solid fa-circle circle-size"></i>
+                        <i class="fa-solid fa-earth-africa"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="menu-eclipse">
+                <i class="fa-solid fa-ellipsis fa-lg"></i>
+            </div>
+
+            <div class="posts-text-width">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Justo donec enim diam vulputate ut pharetra sit amet aliquam. Magna sit amet
+                    purus gravida quis blandit turpis cursus in. Et tortor consequat id porta nibh venenatis cras. Sed
+                    penatibus et magnis dis.
+                </p>
+            </div>
+
+            <div class="posts-image-vid-files">
+                <img alt="image/video" src="assets/google.png">
+            </div>
+
+            <div class="emoticons">
+                <div class="like-emoticon">
+                    <i class="fa-regular fa-thumbs-up"></i>
+                    <p>Like</p>
+                </div>
+
+                <div class="comment-emoticon">
+                    <i class="fa-regular fa-message comment-message-icon"></i>
+                    <p>Comment</p>
+                </div>
+
+                <div class="share-emoticon">
+                    <i class="fa-solid fa-share share-icon"></i>
+                    <p>Share</p>
+                </div>
+            </div>
+
+            <hr class="mind-split">
+
+            <div class="mind-input post-input">
+                <img alt="account" src="assets/ac-pix.jpg">
+                <div class="input-text-container">
+                    <label for="text-mind">
+                        <input class="post-mind" placeholder="Write a comment..." type="text">
+                        <div class="input-icons-container">
+                            <i class="fa-regular fa-face-smile"></i>
+                            <i class="fa-solid fa-camera"></i>
+                            <i class="fa-regular fa-file-image"></i>
+                            <i class="fa-regular fa-floppy-disk"></i>
+                        </div>
+                    </label>
+                </div>
+            </div>
+            <div class="post-tooltip">
+                <p>Press Enter to post.</p>
             </div>
         </div>
     </div>

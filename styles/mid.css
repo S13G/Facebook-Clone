@@ -379,7 +379,6 @@ p {
 .reacted-people {
     font-size: 15px;
     color: #a5a5a5;
-
 }
 
 .emoticons p {
@@ -422,4 +421,61 @@ p {
     margin: -1em 0 0 4rem;
     font-size: 12px;
     color: #cfc7c7;
+}
+
+.previous-comment-container,
+.next-comment-container {
+    display: inherit;
+    font-weight: bold;
+    justify-content: space-between;
+    margin: -4px 16px 10px 16px;
+    color: #ababab;
+    font-size: 14px;
+}
+
+.next-comment-container {
+    justify-content: normal;
+    margin: 3px 0 3px 16px;
+}
+
+.comment-cover-container {
+    display: inherit;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 16px;
+    color: #cacaca;
+    gap: 5px;
+}
+
+.fa-comment-user {
+    align-self: flex-start;
+}
+
+
+.comment-container {
+    display: inherit;
+    flex-direction: column;
+    background-color: #515151;
+    margin-top: -17px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.name-head {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.comment-text {
+    font-size: 14px;
+}
+
+.reply-comment-container {
+    display: inherit;
+    justify-content: space-between;
+    width: 100px;
+    font-size: 13px;
+    color: #9a9a9a;
+    margin: -10px 0 0 75px;
 }

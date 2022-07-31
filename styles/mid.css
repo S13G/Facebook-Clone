@@ -42,12 +42,17 @@ p {
 }
 
 .box:hover,
-.online-next, .media-cover,
-.create-room, .each-section,
-.online-room, .username,
-.post-user-pic,
+.online-next:hover, .media-cover:hover,
+.create-room:hover,
+.each-section:hover,
+.online-room:hover, .username:hover,
+.post-user-pic:hover,
 .posts-image-vid-files img {
     cursor: pointer;
+}
+
+.online-next:hover {
+    background-color: #333333;
 }
 
 .like-emoticon:hover,

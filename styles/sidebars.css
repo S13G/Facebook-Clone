@@ -200,8 +200,14 @@ div::-webkit-scrollbar-thumb:hover {
 
 .sidebar-item:hover,
 .sidebar-item2:hover,
-.sidebar-item5 {
-    cursor: pointer
+.sidebar-item5:hover {
+    cursor: pointer;
+    transition: background-color 0.4s;
+    background-color: #333333;
+    height: auto;
+    width: -moz-max-content;
+    padding: 5px;
+    border-radius: 9px;
 }
 
 .sidebar-item3:hover p {

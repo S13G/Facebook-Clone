@@ -16,11 +16,12 @@
 }
 
 .recent {
+    color: #cfc7c7;
     font-size: 30px;
 }
 
 .recent-info {
-    color: #757575;
+    color: #c4c3c3;
     font-size: 15px;
 }
 
@@ -78,6 +79,7 @@
 }
 
 .name-container p {
+    color: #d8d8d8;
     font-size: 18px;
 }
 
@@ -234,6 +236,7 @@ input:focus {
 #end {
     font-size: 14px;
     margin-top: 25px;
+    color: white;
 }
 
 hr {
@@ -258,7 +261,7 @@ ul {
     display: flex;
     list-style-type: none;
     font-size: 12px;
-    color: #737373;
+    color: #a5a5a5;
     align-items: center;
 }
 
@@ -296,7 +299,7 @@ button {
 }
 
 #page {
-    color: black;
+    color: #d8d8d8;
     font-weight: bold;
     text-decoration: none;
 }

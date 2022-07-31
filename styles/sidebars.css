@@ -432,3 +432,17 @@ button:hover {
 .fa-gdp {
     color: #b8cbd5;
 }
+
+.icons p:hover,
+.contact-icons i:hover,
+.sidebar-item5 p:hover {
+    cursor: pointer;
+    color: #d8d8d8;
+    transition: color 0.4s;
+}
+
+#see:hover,
+#edit:hover {
+    cursor: pointer;
+    color: #00aaff;
+}

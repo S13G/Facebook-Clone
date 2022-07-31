@@ -41,6 +41,24 @@ p {
     background-color: #434343;
 }
 
+.box:hover,
+.online-next, .media-cover,
+.create-room, .each-section,
+.online-room, .username,
+.post-user-pic,
+.posts-image-vid-files img {
+    cursor: pointer;
+}
+
+.like-emoticon:hover,
+.comment-emoticon:hover,
+.share-emoticon:hover,
+.comment-message-icon:hover {
+    cursor: pointer;
+    transition: color 0.4s;
+    color: #0083ff;
+}
+
 .profile {
     position: absolute;
     height: 220px;
@@ -416,6 +434,17 @@ p {
     font-size: 15px;
 }
 
+.input-icons-container i:hover,
+.previous-comment-container p:hover,
+.comment-cover-container i:hover,
+.comment-container .name-head:hover,
+.reply-comment-container p:hover,
+.next-comment-container:hover {
+    cursor: pointer;
+    color: #d8d8d8;
+    transition: color 0.4s;
+}
+
 .post-tooltip {
     display: inherit;
     margin: -1em 0 0 4rem;
@@ -435,7 +464,7 @@ p {
 
 .next-comment-container {
     justify-content: normal;
-    margin: 3px 0 3px 16px;
+    margin: -5px 0 3px 16px;
 }
 
 .comment-cover-container {
@@ -447,6 +476,8 @@ p {
     color: #cacaca;
     gap: 5px;
 }
+
+
 
 .fa-comment-user {
     align-self: flex-start;
@@ -477,5 +508,5 @@ p {
     width: 100px;
     font-size: 13px;
     color: #9a9a9a;
-    margin: -10px 0 0 75px;
+    margin: -10px 0 10px 75px;
 }

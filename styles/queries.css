@@ -1,0 +1,44 @@
+@media (max-width: 700px) {
+    .left-sidebar,
+    .right-sidebar,
+    .middle-section {
+        display: none;
+    }
+
+    .header-container {
+        height: 60px;
+        max-width: 700px;
+    }
+
+    #fb-logo {
+        height: 40px;
+    }
+
+    .right-section div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .left-section {
+        max-width: 120px;
+        margin-top: 0;
+    }
+
+    .right-section {
+        background-color: red;
+    }
+
+    #search {
+        width: 40px;
+        height: 40px;
+    }
+
+    #search-icon {
+        margin-top: 10px;
+    }
+
+    #search::placeholder {
+        padding: 0;
+        color: transparent;
+    }
+}

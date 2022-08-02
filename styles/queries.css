@@ -6,8 +6,9 @@
     }
 
     .header-container {
-        height: 60px;
+        flex: 1;
         max-width: 700px;
+        height: 60px;
     }
 
     #fb-logo {
@@ -25,7 +26,7 @@
     }
 
     .right-section {
-        background-color: red;
+        margin-left: -40px;
     }
 
     #search {
@@ -41,4 +42,65 @@
         padding: 0;
         color: transparent;
     }
+
+    .box:nth-child(even) {
+        display: none;
+    }
+
+    .status-cover {
+        max-width: 350px;
+    }
+
+    .box {
+        height: 170px;
+    }
+
+     .profile {
+         height: 200px;
+     }
+
+     .online-next {
+         left: 327px;
+     }
+
+     .mind-cover,
+     .mind-input input,
+     .mind-split {
+         flex: 1;
+     }
+
+     .mind-cover {
+         width: 370px;
+     }
+
+     .mind-input input {
+         width: 300px;
+     }
+
+      .mind-split {
+          display: inherit;
+          width: 350px;
+          margin-bottom: 0;
+      }
+
+      .mind-media {
+          margin-bottom: 7px;
+          font-size: 13px;
+      }
+
+      .create-room-cover {
+          padding: 8px 0;
+      }
+
+      .each-section:nth-child(-n+2) {
+          display: none;
+      }
+
+      .all-profiles {
+          width: 180px;
+      }
+
+      .online-room {
+          left: 270px;
+      }
 }

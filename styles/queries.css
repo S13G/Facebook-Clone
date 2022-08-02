@@ -49,11 +49,12 @@
     .all-profiles, .create-room-cover-container {
         flex-wrap: nowrap;
         overflow-x: auto;
-        max-width: 340px;
+        max-width: 333px;
     }
 
     .create-room-cover-container {
-        width: 340px;
+        width: 330px;
+        gap: 10px;
         justify-content: space-between;
     }
 
@@ -87,16 +88,16 @@
     }
 
     .mind-cover {
-        max-width: 350px;
+        max-width: 345px;
     }
 
     .mind-input input {
-        width: 280px;
+        width: 270px;
     }
 
     .mind-split {
         display: inherit;
-        width: 330px;
+        width: 320px;
         margin-bottom: 0;
     }
 

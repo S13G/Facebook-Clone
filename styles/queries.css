@@ -1,7 +1,9 @@
 @media (max-width: 700px) {
     .left-sidebar,
     .right-sidebar,
-    .middle-section {
+    .middle-section,
+    .online-next,
+    .online-room {
         display: none;
     }
 
@@ -43,64 +45,68 @@
         color: transparent;
     }
 
-    .box:nth-child(even) {
-        display: none;
-    }
-
-    .status-cover {
+    .status-cover-container,
+    .all-profiles, .create-room-cover-container {
+        flex-wrap: nowrap;
+        overflow-x: auto;
         max-width: 350px;
     }
 
-    .box {
-        height: 170px;
+    .create-room-cover-container {
+        width: 350px;
+        justify-content: space-between;
     }
 
-     .profile {
-         height: 200px;
-     }
+    .all-profiles {
+        width: 170px;
+        gap: 10px;
+        padding: 10px 0;
+    }
 
-     .online-next {
-         left: 327px;
-     }
+    .box {
+        height: 150px;
+        width: 100px;
+    }
 
-     .mind-cover,
-     .mind-input input,
-     .mind-split {
-         flex: 1;
-     }
+    .profile {
+        height: 200px;
+    }
 
-     .mind-cover {
-         width: 370px;
-     }
+    .names {
+        margin-left: 20px;
+    }
 
-     .mind-input input {
-         width: 300px;
-     }
+    .mind-cover,
+    .mind-input input,
+    .mind-split {
+        flex: 1;
+    }
 
-      .mind-split {
-          display: inherit;
-          width: 350px;
-          margin-bottom: 0;
-      }
+    .mind-cover {
+        width: 370px;
+    }
 
-      .mind-media {
-          margin-bottom: 7px;
-          font-size: 13px;
-      }
+    .mind-input input {
+        width: 300px;
+    }
 
-      .create-room-cover {
-          padding: 8px 0;
-      }
+    .mind-split {
+        display: inherit;
+        width: 350px;
+        margin-bottom: 0;
+    }
 
-      .each-section:nth-child(-n+2) {
-          display: none;
-      }
+    .mind-media {
+        margin-bottom: 7px;
+        font-size: 13px;
+    }
 
-      .all-profiles {
-          width: 180px;
-      }
+    .create-room-cover {
+        padding: 8px 0;
+    }
 
-      .online-room {
-          left: 270px;
-      }
+
+    .online-room {
+        left: 270px;
+    }
 }

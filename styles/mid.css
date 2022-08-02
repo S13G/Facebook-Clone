@@ -314,6 +314,7 @@ p {
 }
 
 .posts {
+    position: relative;
     height: auto;
     padding-bottom: 10px;
 }

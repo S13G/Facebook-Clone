@@ -8,11 +8,15 @@
     }
 
     .mid-entire-cover {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     .header-container {
         height: 65px;
+    }
+
+    .menu-eclipse {
+        top: 25px;
     }
 
     #fb-logo {
@@ -27,10 +31,6 @@
     .left-section {
         max-width: 120px;
         margin-top: 0;
-    }
-
-    .right-section {
-        margin-left: -40px;
     }
 
     #search {
@@ -88,7 +88,7 @@
     }
 
     .mind-cover {
-        max-width: 345px;
+        max-width: 350px;
     }
 
     .mind-input input {

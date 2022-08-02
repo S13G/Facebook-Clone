@@ -83,7 +83,7 @@
     }
 
     .mind-cover {
-        width: 370px;
+        width: 365px;
     }
 
     .mind-input input {
@@ -108,5 +108,13 @@
 
     .online-room {
         left: 270px;
+    }
+
+    .input-icons-container {
+        left: 17rem;
+    }
+
+    .input-icons-container i:nth-child(odd) {
+        display: none;
     }
 }

@@ -50,7 +50,7 @@
     .status-cover-container,
     .all-profiles, .create-room-cover-container {
         overflow-x: auto;
-        max-width: 333px;
+        max-width: 343px;
     }
 
     main {
@@ -88,16 +88,16 @@
     }
 
     .mind-cover {
-        max-width: 350px;
+        max-width: 360px;
     }
 
     .mind-input input {
-        width: 270px;
+        width: 280px;
     }
 
     .mind-split {
         display: inherit;
-        width: 320px;
+        width: 330px;
         margin-top: 8px;
     }
 
@@ -106,7 +106,7 @@
     }
 
     .media-cover {
-        gap: 7px;
+        gap: 5px;
     }
 
     .create-room-cover {

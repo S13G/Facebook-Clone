@@ -495,6 +495,7 @@ p {
     background-color: #515151;
     margin-top: -17px;
     padding: 10px;
+    max-width: 300px;
     border-radius: 20px;
 }
 

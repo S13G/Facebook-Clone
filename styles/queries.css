@@ -49,6 +49,130 @@
     .all-profiles, .create-room-cover-container {
         flex-wrap: nowrap;
         overflow-x: auto;
+        max-width: 340px;
+    }
+
+    .create-room-cover-container {
+        width: 340px;
+        justify-content: space-between;
+    }
+
+    .all-profiles {
+        width: 170px;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .box {
+        height: 150px;
+        width: 100px;
+    }
+
+    .create-room {
+        margin-left: 7px;
+    }
+
+    .profile {
+        height: 200px;
+    }
+
+    .names {
+        margin-left: 20px;
+    }
+
+    .mind-cover,
+    .mind-input input,
+    .mind-split {
+        flex: 1;
+    }
+
+    .mind-cover {
+        max-width: 350px;
+    }
+
+    .mind-input input {
+        width: 280px;
+    }
+
+    .mind-split {
+        display: inherit;
+        width: 330px;
+        margin-bottom: 0;
+    }
+
+    .mind-media {
+        margin-bottom: 7px;
+        font-size: 11px;
+    }
+
+    .create-room-cover {
+        padding: 8px 0;
+    }
+
+
+    .online-room {
+        left: 270px;
+    }
+
+    .input-icons-container {
+        left: 15rem;
+    }
+
+    .input-icons-container i:nth-child(odd) {
+        display: none;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 900px) {
+    .left-sidebar,
+    .right-sidebar,
+    .online-next,
+    .online-room {
+        display: none;
+    }
+
+    .header-container {
+        flex: 1;
+        max-width: 700px;
+        height: 60px;
+    }
+
+    #fb-logo {
+        height: 40px;
+    }
+
+    .right-section div {
+        width: 40px;
+        height: 40px;
+    }
+
+    .left-section {
+        max-width: 120px;
+        margin-top: 0;
+    }
+
+    .right-section {
+        margin-left: -40px;
+    }
+
+    #search {
+        width: 40px;
+        height: 40px;
+    }
+
+    #search-icon {
+        margin-top: 10px;
+    }
+
+    #search::placeholder {
+        padding: 0;
+        color: transparent;
+    }
+
+    .status-cover-container,
+    .all-profiles, .create-room-cover-container {
+        flex-wrap: nowrap;
+        overflow-x: auto;
         max-width: 350px;
     }
 
@@ -117,4 +241,5 @@
     .input-icons-container i:nth-child(odd) {
         display: none;
     }
+
 }
